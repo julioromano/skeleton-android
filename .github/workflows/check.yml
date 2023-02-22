@@ -1,0 +1,31 @@
+name: Check
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+      - name: Validate Gradle Wrapper
+        uses: gradle/wrapper-validation-action@v1
+      - name: Setup Gradle and execute check task
+        uses: gradle/gradle-build-action@v2
+        id: gradle
+        with:
+          # Only write to the cache for builds on the 'main' branch.
+          # Builds on other branches will only read existing entries from the cache.
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+          arguments: check --scan
