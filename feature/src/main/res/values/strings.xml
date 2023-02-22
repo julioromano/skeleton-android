@@ -1,0 +1,5 @@
+<resources>
+    <string name="greeter">Greeter</string>
+    <string name="insert_name">Insert name</string>
+    <string name="greet">Greet</string>
+</resources>
