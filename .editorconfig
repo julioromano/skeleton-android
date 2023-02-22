@@ -1,0 +1,15 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{kt,kts}]
+ktlint_disabled_rules = filename
+charset = utf-8
+indent_style = space
+indent_size = 2
+max_line_length = 100
+trim_trailing_whitespace = true
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
