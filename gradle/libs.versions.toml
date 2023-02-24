@@ -78,12 +78,10 @@ androidx-coreGoogleShortcuts = "androidx.core:core-google-shortcuts:1.1.0"
 androidx-coreSplashscreen = "androidx.core:core-splashscreen:1.0.0"
 androidx-coreTesting = "androidx.arch.core:core-testing:2.2.0"
 androidx-datastore = "androidx.datastore:datastore:1.0.0"
-androidx-fragment = "androidx.fragment:fragment-ktx:1.5.5"
 androidx-glance-glanceAppwidget = "androidx.glance:glance-appwidget:1.0.0-alpha05"
 androidx-hiltCompiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidx-hilt" }
 androidx-hiltNav = { module = "androidx.hilt:hilt-navigation", version.ref = "androidx-hilt" }
 androidx-hiltNavCompose = "androidx.hilt:hilt-navigation-compose:1.0.0"
-androidx-hiltNavFragment = "androidx.hilt:hilt-navigation-fragment:1.0.0"
 androidx-hiltWork = { module = "androidx.hilt:hilt-work", version.ref = "androidx-hilt" }
 androidx-lifecycleCommonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx-lifecycle" }
 androidx-lifecycleLivedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
@@ -95,8 +93,7 @@ androidx-lifecycleViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel
 androidx-lifecycleViewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-media = "androidx.media:media:1.6.0"
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
-androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation" }
-androidx-navigation-testing = { module = "androidx.navigation:navigation-testing-ktx", version.ref = "androidx-navigation" }
+androidx-navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "androidx-navigation" }
 androidx-palette = "androidx.palette:palette-ktx:1.0.0"
 androidx-recyclerview = "androidx.recyclerview:recyclerview:1.2.1"
 androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
