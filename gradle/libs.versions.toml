@@ -129,7 +129,7 @@ google-daggerCompiler = { module = "com.google.dagger:dagger-compiler", version.
 google-daggerHiltAndroid = { module = "com.google.dagger:hilt-android", version.ref = "google-dagger" }
 google-daggerHiltCompiler = { module = "com.google.dagger:hilt-compiler", version.ref = "google-dagger" }
 google-daggerHiltCore = { module = "com.google.dagger:hilt-core", version.ref = "google-dagger" }
-google-daggerHiltTesting = { module = "com.google.dagger:hilt-testing", version.ref = "google-dagger" }
+google-daggerHiltTesting = { module = "com.google.dagger:hilt-android-testing", version.ref = "google-dagger" }
 google-firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
 google-firebase-bom = "com.google.firebase:firebase-bom:31.2.2"
 google-firebase-config = { module = "com.google.firebase:firebase-config-ktx" }
