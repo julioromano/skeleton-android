@@ -34,7 +34,7 @@ square-sqlDelight = "1.5.5"
 [plugins]
 android-application = { id = "com.android.application", version.ref = "plugin-android" }
 android-library = { id = "com.android.library", version.ref = "plugin-android" }
-dagger-hilt = { id = "dagger.hilt.android.plugin", version.ref = "google-dagger" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "google-dagger" }
 dependencyUpdates = { id = "com.github.ben-manes.versions", version.ref = "plugin-dependencyUpdates" }
 google-firebase-appDistribution = { id = "com.google.firebase.appdistribution", version.ref = "plugin-google-firebase-appDistribution" }
 google-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "plugin-google-firebase-crashlytics" }
