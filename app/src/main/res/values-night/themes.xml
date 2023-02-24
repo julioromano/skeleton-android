@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Skeleton" parent="android:Theme.Material.NoActionBar" />
+    <style name="Theme.App" parent="android:Theme.Material.NoActionBar" />
 
 </resources>
