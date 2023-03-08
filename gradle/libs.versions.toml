@@ -95,8 +95,6 @@ androidx-media = "androidx.media:media:1.6.0"
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
 androidx-navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "androidx-navigation" }
 androidx-palette = "androidx.palette:palette-ktx:1.0.0"
-androidx-recyclerview = "androidx.recyclerview:recyclerview:1.3.0"
-androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 androidx-testCore = { module = "androidx.test:core-ktx", version.ref = "androidx-test" }
 androidx-testEspressoContrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-testEspresso" }
 androidx-testEspressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-testEspresso" }
@@ -107,7 +105,6 @@ androidx-testOrchestrator = "androidx.test:orchestrator:1.4.2"
 androidx-testRules = { module = "androidx.test:rules", version.ref = "androidx-test" }
 androidx-testRunner = "androidx.test:runner:1.5.2"
 androidx-uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
-androidx-viewPager2 = "androidx.viewpager2:viewpager2:1.1.0-beta01"
 androidx-webkit = "androidx.webkit:webkit:1.6.0"
 androidx-workRuntime = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-workManager" }
 androidx-workTesting = { module = "androidx.work:work-testing", version.ref = "androidx-workManager" }
