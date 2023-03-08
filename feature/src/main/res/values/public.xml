@@ -1,0 +1,5 @@
+<resources>
+    <!--  Makes all the module's resources private  -->
+    <public />
+    <!--  Feature modules are generally leaf modules so they shouldn't expose any resources  -->
+</resources>
