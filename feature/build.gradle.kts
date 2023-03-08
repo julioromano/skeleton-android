@@ -1,9 +1,9 @@
 plugins {
-    id("conventions.android")
+  id("conventions.android")
 }
 
 android {
-    namespace = "net.marcoromano.skeleton.feature"
+  namespace = "net.marcoromano.skeleton.feature"
 }
 
 dependencies {
