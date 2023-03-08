@@ -10,7 +10,7 @@ import net.marcoromano.skeleton.feature.FeatureNavigation
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
-fun SkeletonNavHost() {
+fun AppNavHost() {
   val navController = rememberAnimatedNavController()
   AnimatedNavHost(
     navController = navController,

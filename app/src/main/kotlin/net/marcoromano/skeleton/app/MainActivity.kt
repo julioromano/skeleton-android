@@ -6,8 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
 import dagger.hilt.android.AndroidEntryPoint
-import net.marcoromano.skeleton.app.ui.SkeletonUi
-import net.marcoromano.skeleton.app.ui.theme.SkeletonTheme
+import net.marcoromano.skeleton.app.ui.AppUi
+import net.marcoromano.skeleton.app.ui.theme.AppTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -16,8 +16,8 @@ class MainActivity : ComponentActivity() {
     super.onCreate(savedInstanceState)
     WindowCompat.setDecorFitsSystemWindows(window, false)
     setContent {
-      SkeletonTheme {
-        SkeletonUi()
+      AppTheme {
+        AppUi()
       }
     }
   }
