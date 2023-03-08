@@ -7,7 +7,7 @@ import androidx.compose.ui.graphics.Color
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 @Composable
-fun SkeletonUi() {
+fun AppUi() {
   val systemUiController = rememberSystemUiController()
   val useDarkIcons = !isSystemInDarkTheme()
   DisposableEffect(systemUiController, useDarkIcons) {
@@ -17,5 +17,5 @@ fun SkeletonUi() {
     )
     onDispose {}
   }
-  SkeletonNavHost()
+  AppNavHost()
 }
