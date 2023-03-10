@@ -15,7 +15,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: 'oracle'
           java-version: '17'
       - name: Checkout repository
         uses: actions/checkout@v3
