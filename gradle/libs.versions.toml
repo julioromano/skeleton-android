@@ -174,7 +174,7 @@ square-retrofitConverterMoshi = { module = "com.squareup.retrofit2:converter-mos
 square-sqlDelightAndroid = { module = "com.squareup.sqldelight:android-driver", version.ref = "square-sqlDelight" }
 square-sqlDelightCoroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "square-sqlDelight" }
 square-sqlDelightJvm = { module = "com.squareup.sqldelight:sqlite-driver", version.ref = "square-sqlDelight" }
-square-turbine = "app.cash.turbine:turbine:0.12.3"
+square-turbine = "app.cash.turbine:turbine:0.13.0"
 
 [bundles]
 androidx-compose = ["androidx-composeAnimation", "androidx-composeFoundation", "androidx-composeMaterial3", "androidx-composeMaterial3WindowSize", "androidx-composeMaterialIcons", "androidx-composeMaterialIconsExt", "androidx-composeRuntime", "androidx-composeUi", "androidx-composeUiGraphics", "androidx-composeUiToolingPreview"]
