@@ -4,5 +4,15 @@
     "config:base"
   ],
   "automerge": true,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "packageRules" : [
+    {
+      "matchPackagePatterns" : [
+        "^org.jetbrains.kotlin",
+        "^com.google.devtools.ksp",
+        "^androidx.compose.compiler"
+      ],
+      "groupName" : "kotlin"
+    }
+  ]
 }
