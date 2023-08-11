@@ -2,7 +2,7 @@
 android-buildTools = "34.0.0"
 android-compileSdk = "34"
 android-minSdk = "26"
-android-targetSdk = "33"
+android-targetSdk = "34"
 androidx-activity = "1.7.2"
 androidx-compose-compiler = "1.5.1"
 androidx-hilt = "1.0.0"
