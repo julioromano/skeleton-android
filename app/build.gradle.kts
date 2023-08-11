@@ -129,7 +129,6 @@ dependencies {
   implementation(libs.androidx.lifecycleRuntime)
   implementation(libs.androidx.navigation.compose)
   implementation(libs.bundles.androidx.compose)
-  implementation(libs.google.accompanistNavigationAnimation)
   implementation(libs.google.accompanistSystemUi)
   implementation(libs.google.daggerHiltAndroid)
   debugImplementation(libs.square.leakcanary)

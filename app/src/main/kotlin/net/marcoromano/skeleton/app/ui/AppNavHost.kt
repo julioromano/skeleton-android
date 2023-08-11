@@ -1,18 +1,16 @@
 package net.marcoromano.skeleton.app.ui
 
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.google.accompanist.navigation.animation.AnimatedNavHost
-import com.google.accompanist.navigation.animation.rememberAnimatedNavController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.rememberNavController
 import net.marcoromano.skeleton.feature.FeatureNavigation
 
-@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun AppNavHost() {
-  val navController = rememberAnimatedNavController()
-  AnimatedNavHost(
+  val navController = rememberNavController()
+  NavHost(
     navController = navController,
     startDestination = FeatureNavigation.route,
     modifier = Modifier.fillMaxSize(),

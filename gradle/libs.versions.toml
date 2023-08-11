@@ -112,7 +112,6 @@ coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 coilCompose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 google-accompanistFlow = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "google-accompanist" }
 google-accompanistInsetsUi = { module = "com.google.accompanist:accompanist-insets-ui", version.ref = "google-accompanist" }
-google-accompanistNavigationAnimation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "google-accompanist" }
 google-accompanistNavigationMaterial = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "google-accompanist" }
 google-accompanistPager = { module = "com.google.accompanist:accompanist-pager", version.ref = "google-accompanist" }
 google-accompanistPagerInd = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "google-accompanist" }
