@@ -66,7 +66,7 @@ dependencies {
   implementation(libs.findLibrary("androidx.hiltNavCompose").get())
   implementation(libs.findLibrary("androidx.lifecycleRuntimeCompose").get())
   implementation(libs.findLibrary("androidx.lifecycleViewmodelCompose").get())
-  implementation(libs.findLibrary("google.accompanistNavigationAnimation").get())
+  implementation(libs.findLibrary("androidx.navigation.compose").get())
   implementation(libs.findLibrary("google.daggerHiltAndroid").get())
   implementation(libs.findLibrary("kotlinx.coroutinesAndroid").get())
   implementation(platform(libs.findLibrary("androidx.compose.bom").get()))
