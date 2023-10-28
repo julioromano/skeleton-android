@@ -132,7 +132,7 @@ google-glance-appwidgetHost = { module = "com.google.android.glance.tools:appwid
 google-glance-appwidgetViewer = { module = "com.google.android.glance.tools:appwidget-viewer", version.ref = "google-glance-tooling" }
 google-play-location = "com.google.android.gms:play-services-location:21.0.1"
 google-play-maps = "com.google.android.gms:play-services-maps:18.2.0"
-google-play-mapsKtx = "com.google.maps.android:maps-ktx:4.0.0"
+google-play-mapsKtx = "com.google.maps.android:maps-ktx:5.0.0"
 inject = "javax.inject:javax.inject:1"
 junit = "junit:junit:4.13.2"
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
