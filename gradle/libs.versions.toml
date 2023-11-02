@@ -81,7 +81,7 @@ androidx-datastore = "androidx.datastore:datastore:1.0.0"
 androidx-glance-glanceAppwidget = "androidx.glance:glance-appwidget:1.0.0"
 androidx-hiltCompiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidx-hilt" }
 androidx-hiltNav = { module = "androidx.hilt:hilt-navigation", version.ref = "androidx-hilt" }
-androidx-hiltNavCompose = "androidx.hilt:hilt-navigation-compose:1.0.0"
+androidx-hiltNavCompose = "androidx.hilt:hilt-navigation-compose:1.1.0"
 androidx-hiltWork = { module = "androidx.hilt:hilt-work", version.ref = "androidx-hilt" }
 androidx-lifecycleCommonJava8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx-lifecycle" }
 androidx-lifecycleLivedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
