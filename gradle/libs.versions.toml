@@ -91,7 +91,7 @@ androidx-lifecycleRuntimeCompose = { module = "androidx.lifecycle:lifecycle-runt
 androidx-lifecycleService = { module = "androidx.lifecycle:lifecycle-service", version.ref = "androidx-lifecycle" }
 androidx-lifecycleViewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-lifecycleViewmodelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
-androidx-media = "androidx.media:media:1.6.0"
+androidx-media = "androidx.media:media:1.7.0"
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
 androidx-navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "androidx-navigation" }
 androidx-palette = "androidx.palette:palette-ktx:1.0.0"
