@@ -5,17 +5,17 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 
 public object FeatureNavigation {
-  public const val route: String = "feature"
+  public const val ROUTE: String = "feature"
 
   public fun navGraphBuilder(navGraphBuilder: NavGraphBuilder) {
     navGraphBuilder.composable(
-      route = route,
+      route = ROUTE,
     ) {
       FeatureScreen()
     }
   }
 
   public fun navigate(navController: NavController) {
-    navController.navigate(route)
+    navController.navigate(ROUTE)
   }
 }

@@ -36,10 +36,7 @@ internal fun FeatureScreen() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun FeatureScreen(
-  state: FeatureState,
-  greet: (name: String) -> Unit,
-) {
+internal fun FeatureScreen(state: FeatureState, greet: (name: String) -> Unit) {
   Scaffold(
     topBar = {
       TopAppBar(title = { Text(text = stringResource(R.string.greeter)) })

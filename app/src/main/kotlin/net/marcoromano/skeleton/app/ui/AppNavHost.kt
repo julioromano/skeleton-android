@@ -12,7 +12,7 @@ fun AppNavHost() {
   val navController = rememberNavController()
   NavHost(
     navController = navController,
-    startDestination = FeatureNavigation.route,
+    startDestination = FeatureNavigation.ROUTE,
     modifier = Modifier.fillMaxSize(),
     route = "mainGraph",
   ) {
