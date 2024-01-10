@@ -2,7 +2,7 @@
 ## Template skeleton for quick bootstrap of an Android app
 
 This is a project template to quickly bootstrap an Android app with the following characteristics:
-- JDK11 toolchain
+- JDK17 toolchain
 - 100% Kotlin (no 'java' dirs)
 - 100% Jetpack Compose (no fragments)
 - LeakCanary
