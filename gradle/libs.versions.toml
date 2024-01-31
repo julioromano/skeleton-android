@@ -12,7 +12,7 @@ androidx-test = "1.5.0"
 androidx-testEspresso = "3.5.1"
 androidx-workManager = "2.9.0"
 coil = "2.5.0"
-google-accompanist = "0.32.0"
+google-accompanist = "0.34.0"
 google-dagger = "2.50"
 google-glance-tooling = "0.2.2"
 kotlin = "1.9.22"
@@ -116,7 +116,6 @@ google-accompanistNavigationMaterial = { module = "com.google.accompanist:accomp
 google-accompanistPager = { module = "com.google.accompanist:accompanist-pager", version.ref = "google-accompanist" }
 google-accompanistPagerInd = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "google-accompanist" }
 google-accompanistPermissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "google-accompanist" }
-google-accompanistSystemUi = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "google-accompanist" }
 google-dagger = { module = "com.google.dagger:dagger", version.ref = "google-dagger" }
 google-daggerCompiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
 google-daggerHiltAndroid = { module = "com.google.dagger:hilt-android", version.ref = "google-dagger" }
