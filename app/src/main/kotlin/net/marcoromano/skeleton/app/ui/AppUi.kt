@@ -1,21 +1,21 @@
 package net.marcoromano.skeleton.app.ui
 
-import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
-import androidx.compose.ui.graphics.Color
-import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import androidx.compose.ui.Modifier
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.rememberNavController
+import net.marcoromano.skeleton.feature.FeatureNavigation
 
 @Composable
 fun AppUi() {
-  val systemUiController = rememberSystemUiController()
-  val useDarkIcons = !isSystemInDarkTheme()
-  DisposableEffect(systemUiController, useDarkIcons) {
-    systemUiController.setSystemBarsColor(
-      color = Color.Transparent,
-      darkIcons = useDarkIcons,
-    )
-    onDispose {}
+  val navController = rememberNavController()
+  NavHost(
+    navController = navController,
+    startDestination = FeatureNavigation.ROUTE,
+    modifier = Modifier.fillMaxSize(),
+    route = "mainGraph",
+  ) {
+    FeatureNavigation.navGraphBuilder(this)
   }
-  AppNavHost()
 }

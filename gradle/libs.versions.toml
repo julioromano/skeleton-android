@@ -116,7 +116,6 @@ google-accompanistNavigationMaterial = { module = "com.google.accompanist:accomp
 google-accompanistPager = { module = "com.google.accompanist:accompanist-pager", version.ref = "google-accompanist" }
 google-accompanistPagerInd = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "google-accompanist" }
 google-accompanistPermissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "google-accompanist" }
-google-accompanistSystemUi = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "google-accompanist" }
 google-dagger = { module = "com.google.dagger:dagger", version.ref = "google-dagger" }
 google-daggerCompiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
 google-daggerHiltAndroid = { module = "com.google.dagger:hilt-android", version.ref = "google-dagger" }
