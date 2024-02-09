@@ -1,6 +1,5 @@
-import org.gradle.internal.os.OperatingSystem
-
-val separator = if (OperatingSystem.current().isWindows) '\\' else '/'
+import java.io.File.separator
+import java.io.File.separatorChar
 
 /**
  * Searches for subprojects' `build.gradle` files and prints their Gradle project path.
@@ -16,7 +15,7 @@ private val discoverSubprojects: () -> Array<String> = {
   }.map {
     it.path.removePrefix(rootDir.path)
       .removeSuffix("${separator}build.gradle.kts")
-      .replace(separator, ':')
+      .replace(separatorChar, ':')
   }.toList().toTypedArray()
 }
 
