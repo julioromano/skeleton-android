@@ -73,7 +73,7 @@ androidx-composeUiToolingPreview = { module = "androidx.compose.ui:ui-tooling-pr
 androidx-composeUiViewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
 androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
 androidx-constraintlayoutCompose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
-androidx-core = "androidx.core:core-ktx:1.12.0"
+androidx-core = "androidx.core:core-ktx:1.13.1"
 androidx-coreGoogleShortcuts = "androidx.core:core-google-shortcuts:1.1.0"
 androidx-coreSplashscreen = "androidx.core:core-splashscreen:1.0.1"
 androidx-coreTesting = "androidx.arch.core:core-testing:2.2.0"
