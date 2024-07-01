@@ -3,32 +3,32 @@ android-buildTools = "34.0.0"
 android-compileSdk = "34"
 android-minSdk = "26"
 android-targetSdk = "34"
-androidx-activity = "1.8.2"
-androidx-compose-compiler = "1.5.10"
+androidx-activity = "1.9.0"
+androidx-compose-compiler = "1.5.14"
 androidx-hilt = "1.2.0"
-androidx-lifecycle = "2.7.0"
+androidx-lifecycle = "2.8.2"
 androidx-navigation = "2.7.7"
-androidx-test = "1.5.0"
-androidx-testEspresso = "3.5.1"
+androidx-test = "1.6.1"
+androidx-testEspresso = "3.6.1"
 androidx-workManager = "2.9.0"
 coil = "2.6.0"
 google-accompanist = "0.34.0"
-google-dagger = "2.51"
+google-dagger = "2.51.1"
 google-glance-tooling = "0.2.2"
-kotlin = "1.9.22"
-kotlinx-coroutines = "1.8.0"
+kotlin = "1.9.24"
+kotlinx-coroutines = "1.8.1"
 kotlinx-serialization = "1.6.3"
 plugin-android = "8.5.0"
 plugin-dependencyUpdates = "0.51.0"
-plugin-google-firebase-appDistribution = "4.2.0"
-plugin-google-firebase-crashlytics = "2.9.9"
-plugin-google-ksp = "1.9.22-1.0.18"
-plugin-google-services = "4.4.1"
-plugin-kotlinter = "4.2.0"
-plugin-playPublisher = "3.9.0"
+plugin-google-firebase-appDistribution = "5.0.0"
+plugin-google-firebase-crashlytics = "3.0.2"
+plugin-google-ksp = "1.9.24-1.0.20"
+plugin-google-services = "4.4.2"
+plugin-kotlinter = "4.3.0"
+plugin-playPublisher = "3.10.1"
 square-moshi = "1.15.1"
 square-okhttp = "4.12.0"
-square-retrofit = "2.9.0"
+square-retrofit = "2.11.0"
 square-sqlDelight = "1.5.5"
 
 [plugins]
@@ -53,9 +53,9 @@ square-sqldelight = { id = "com.squareup.sqldelight", version.ref = "square-sqlD
 androidx-activity = { module = "androidx.activity:activity", version.ref = "androidx-activity" }
 androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 androidx-appcompat = "androidx.appcompat:appcompat:1.7.0"
-androidx-browser = "androidx.browser:browser:1.7.0"
+androidx-browser = "androidx.browser:browser:1.8.0"
 androidx-collection = "androidx.collection:collection-ktx:1.4.0"
-androidx-compose-bom = "androidx.compose:compose-bom:2024.02.01"
+androidx-compose-bom = "androidx.compose:compose-bom:2024.06.00"
 androidx-composeAnimation = { module = "androidx.compose.animation:animation" }
 androidx-composeCompiler = { module = "androidx.compose.compiler:compiler", version.ref = "androidx-compose-compiler" }
 androidx-composeFoundation = { module = "androidx.compose.foundation:foundation" }
@@ -73,12 +73,12 @@ androidx-composeUiToolingPreview = { module = "androidx.compose.ui:ui-tooling-pr
 androidx-composeUiViewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
 androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
 androidx-constraintlayoutCompose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
-androidx-core = "androidx.core:core-ktx:1.12.0"
+androidx-core = "androidx.core:core-ktx:1.13.1"
 androidx-coreGoogleShortcuts = "androidx.core:core-google-shortcuts:1.1.0"
 androidx-coreSplashscreen = "androidx.core:core-splashscreen:1.0.1"
 androidx-coreTesting = "androidx.arch.core:core-testing:2.2.0"
-androidx-datastore = "androidx.datastore:datastore:1.0.0"
-androidx-glance-glanceAppwidget = "androidx.glance:glance-appwidget:1.0.0"
+androidx-datastore = "androidx.datastore:datastore:1.1.1"
+androidx-glance-glanceAppwidget = "androidx.glance:glance-appwidget:1.1.0"
 androidx-hiltCompiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidx-hilt" }
 androidx-hiltNav = { module = "androidx.hilt:hilt-navigation", version.ref = "androidx-hilt" }
 androidx-hiltNavCompose = "androidx.hilt:hilt-navigation-compose:1.2.0"
@@ -98,14 +98,14 @@ androidx-palette = "androidx.palette:palette-ktx:1.0.0"
 androidx-testCore = { module = "androidx.test:core-ktx", version.ref = "androidx-test" }
 androidx-testEspressoContrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-testEspresso" }
 androidx-testEspressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-testEspresso" }
-androidx-testExtJunit = "androidx.test.ext:junit-ktx:1.1.5"
+androidx-testExtJunit = "androidx.test.ext:junit-ktx:1.2.1"
 androidx-testExtTruth = { module = "androidx.test.ext:truth", version.ref = "androidx-test" }
-androidx-testMonitor = "androidx.test:monitor:1.6.1"
-androidx-testOrchestrator = "androidx.test:orchestrator:1.4.2"
+androidx-testMonitor = "androidx.test:monitor:1.7.1"
+androidx-testOrchestrator = "androidx.test:orchestrator:1.5.0"
 androidx-testRules = { module = "androidx.test:rules", version.ref = "androidx-test" }
-androidx-testRunner = "androidx.test:runner:1.5.2"
+androidx-testRunner = "androidx.test:runner:1.6.1"
 androidx-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
-androidx-webkit = "androidx.webkit:webkit:1.10.0"
+androidx-webkit = "androidx.webkit:webkit:1.11.0"
 androidx-workRuntime = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-workManager" }
 androidx-workTesting = { module = "androidx.work:work-testing", version.ref = "androidx-workManager" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
@@ -123,14 +123,14 @@ google-daggerHiltCompiler = { module = "com.google.dagger:hilt-compiler", versio
 google-daggerHiltCore = { module = "com.google.dagger:hilt-core", version.ref = "google-dagger" }
 google-daggerHiltTesting = { module = "com.google.dagger:hilt-android-testing", version.ref = "google-dagger" }
 google-firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
-google-firebase-bom = "com.google.firebase:firebase-bom:32.7.3"
+google-firebase-bom = "com.google.firebase:firebase-bom:33.1.1"
 google-firebase-config = { module = "com.google.firebase:firebase-config-ktx" }
 google-firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
 google-firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx" }
 google-glance-appwidgetHost = { module = "com.google.android.glance.tools:appwidget-host", version.ref = "google-glance-tooling" }
 google-glance-appwidgetViewer = { module = "com.google.android.glance.tools:appwidget-viewer", version.ref = "google-glance-tooling" }
-google-play-location = "com.google.android.gms:play-services-location:21.1.0"
-google-play-maps = "com.google.android.gms:play-services-maps:18.2.0"
+google-play-location = "com.google.android.gms:play-services-location:21.3.0"
+google-play-maps = "com.google.android.gms:play-services-maps:19.0.0"
 google-play-mapsKtx = "com.google.maps.android:maps-ktx:5.0.0"
 inject = "javax.inject:javax.inject:1"
 junit = "junit:junit:4.13.2"
@@ -156,8 +156,8 @@ plugin-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serializat
 plugin-kotlinter = { module = "org.jmailen.gradle:kotlinter-gradle", version.ref = "plugin-kotlinter" }
 plugin-playPublisher = { module = "com.github.triplet.gradle:play-publisher", version.ref = "plugin-playPublisher" }
 plugin-square-sqldelight = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "square-sqlDelight" }
-robolectric = "org.robolectric:robolectric:4.11.1"
-square-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.13"
+robolectric = "org.robolectric:robolectric:4.12.2"
+square-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.14"
 square-moshi = { module = "com.squareup.moshi:moshi", version.ref = "square-moshi" }
 square-moshiAdapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "square-moshi" }
 square-moshiKotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "square-moshi" }
