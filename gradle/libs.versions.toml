@@ -98,7 +98,7 @@ androidx-palette = "androidx.palette:palette-ktx:1.0.0"
 androidx-testCore = { module = "androidx.test:core-ktx", version.ref = "androidx-test" }
 androidx-testEspressoContrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-testEspresso" }
 androidx-testEspressoCore = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-testEspresso" }
-androidx-testExtJunit = "androidx.test.ext:junit-ktx:1.1.5"
+androidx-testExtJunit = "androidx.test.ext:junit-ktx:1.2.1"
 androidx-testExtTruth = { module = "androidx.test.ext:truth", version.ref = "androidx-test" }
 androidx-testMonitor = "androidx.test:monitor:1.6.1"
 androidx-testOrchestrator = "androidx.test:orchestrator:1.4.2"
