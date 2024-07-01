@@ -7,6 +7,7 @@ buildscript {
     classpath(libs.plugin.google.ksp)
     classpath(libs.plugin.google.services)
     classpath(libs.plugin.kotlin)
+    classpath(libs.plugin.kotlin.compose)
     classpath(libs.plugin.kotlin.serialization)
     classpath(libs.plugin.kotlinter)
     classpath(libs.plugin.playPublisher)

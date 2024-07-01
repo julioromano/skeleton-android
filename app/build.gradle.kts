@@ -4,7 +4,8 @@ import java.time.Instant
 plugins {
   id(libs.plugins.android.application.get().pluginId)
   id(libs.plugins.kotlin.android.get().pluginId)
-  id(libs.plugins.kotlin.kapt.get().pluginId)
+  id(libs.plugins.kotlin.compose.get().pluginId)
+  id(libs.plugins.google.ksp.get().pluginId)
   // TODO // id(libs.plugins.google.services.get().pluginId)
   // TODO // id(libs.plugins.google.firebase.crashlytics.get().pluginId)
   // TODO // id(libs.plugins.google.firebase.appDistribution.get().pluginId)
@@ -64,7 +65,6 @@ android {
     }
   }
   composeOptions {
-    kotlinCompilerExtensionVersion = libs.versions.androidx.compose.compiler.get()
     useLiveLiterals = true
   }
   testOptions {
@@ -113,10 +113,6 @@ androidComponents {
 //     releaseStatus.set(ReleaseStatus.DRAFT)
 // }
 
-kapt {
-  correctErrorTypes = true // Required by dagger-hilt
-}
-
 hilt {
   enableAggregatingTask = true
 }
@@ -134,7 +130,7 @@ dependencies {
   implementation(platform(libs.androidx.compose.bom))
   debugImplementation(libs.androidx.composeUiTestManifest)
   debugImplementation(libs.androidx.composeUiTooling)
-  kapt(libs.google.daggerHiltCompiler)
+  ksp(libs.google.daggerHiltCompiler)
   testImplementation(libs.junit)
   androidTestImplementation(libs.androidx.composeUiTestJunit4)
   androidTestImplementation(libs.androidx.testCore)

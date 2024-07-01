@@ -7,7 +7,8 @@ val libs: VersionCatalog = extensions.getByType<VersionCatalogsExtension>().name
 plugins {
   id("com.android.library")
   id("org.jetbrains.kotlin.android")
-  id("org.jetbrains.kotlin.kapt")
+  id("org.jetbrains.kotlin.plugin.compose")
+  id("com.google.devtools.ksp")
   id("org.jmailen.kotlinter")
 }
 
@@ -27,7 +28,6 @@ android {
     compose = true
   }
   composeOptions {
-    kotlinCompilerExtensionVersion = libs.findVersion("androidx.compose.compiler").get().toString()
     useLiveLiterals = true
   }
   testOptions {
@@ -55,10 +55,6 @@ kotlin {
   }
 }
 
-kapt {
-  correctErrorTypes = true // Required by dagger-hilt
-}
-
 dependencies {
   implementation(libs.findBundle("androidx.compose").get())
   implementation(libs.findLibrary("androidx.activityCompose").get())
@@ -72,7 +68,7 @@ dependencies {
   implementation(platform(libs.findLibrary("androidx.compose.bom").get()))
   debugImplementation(libs.findLibrary("androidx-composeUiTestManifest").get())
   debugImplementation(libs.findLibrary("androidx.composeUiTooling").get())
-  kapt(libs.findLibrary("google.daggerHiltCompiler").get())
+  ksp(libs.findLibrary("google.daggerHiltCompiler").get())
   testImplementation(libs.findLibrary("androidx.testExtJunit").get())
   testImplementation(libs.findLibrary("junit").get())
   testImplementation(libs.findLibrary("kotlin.test").get())
