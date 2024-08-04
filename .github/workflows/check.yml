@@ -22,7 +22,7 @@ jobs:
       - name: Validate Gradle Wrapper
         uses: gradle/wrapper-validation-action@v3
       - name: Setup Gradle and execute check task
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v4
         id: gradle
         with:
           # Only write to the cache for builds on the 'main' branch.
