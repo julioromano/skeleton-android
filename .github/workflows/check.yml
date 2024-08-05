@@ -30,3 +30,5 @@ jobs:
           gradle-home-cache-cleanup: true
           cache-read-only: ${{ github.ref != 'refs/heads/main' }}
           arguments: check --scan
+      - name: Run check task with build scan
+        run: ./gradlew check --scan
