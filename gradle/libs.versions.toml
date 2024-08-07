@@ -53,7 +53,7 @@ androidx-activity = { module = "androidx.activity:activity", version.ref = "andr
 androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 androidx-appcompat = "androidx.appcompat:appcompat:1.7.0"
 androidx-browser = "androidx.browser:browser:1.8.0"
-androidx-collection = "androidx.collection:collection-ktx:1.4.2"
+androidx-collection = "androidx.collection:collection-ktx:1.4.3"
 androidx-compose-bom = "androidx.compose:compose-bom:2024.06.00"
 androidx-composeAnimation = { module = "androidx.compose.animation:animation" }
 androidx-composeFoundation = { module = "androidx.compose.foundation:foundation" }
