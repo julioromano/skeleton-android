@@ -101,7 +101,7 @@ androidx-testExtTruth = { module = "androidx.test.ext:truth", version.ref = "and
 androidx-testMonitor = "androidx.test:monitor:1.7.2"
 androidx-testOrchestrator = "androidx.test:orchestrator:1.5.0"
 androidx-testRules = { module = "androidx.test:rules", version.ref = "androidx-test" }
-androidx-testRunner = "androidx.test:runner:1.6.1"
+androidx-testRunner = "androidx.test:runner:1.6.2"
 androidx-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
 androidx-webkit = "androidx.webkit:webkit:1.11.0"
 androidx-workRuntime = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-workManager" }
