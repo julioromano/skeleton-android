@@ -99,7 +99,7 @@ androidx-testEspressoCore = { module = "androidx.test.espresso:espresso-core", v
 androidx-testExtJunit = "androidx.test.ext:junit-ktx:1.2.1"
 androidx-testExtTruth = { module = "androidx.test.ext:truth", version.ref = "androidx-test" }
 androidx-testMonitor = "androidx.test:monitor:1.7.2"
-androidx-testOrchestrator = "androidx.test:orchestrator:1.5.0"
+androidx-testOrchestrator = "androidx.test:orchestrator:1.5.1"
 androidx-testRules = { module = "androidx.test:rules", version.ref = "androidx-test" }
 androidx-testRunner = "androidx.test:runner:1.6.2"
 androidx-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
