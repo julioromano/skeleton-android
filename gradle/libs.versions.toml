@@ -155,7 +155,7 @@ plugin-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serializat
 plugin-kotlinter = { module = "org.jmailen.gradle:kotlinter-gradle", version.ref = "plugin-kotlinter" }
 plugin-playPublisher = { module = "com.github.triplet.gradle:play-publisher", version.ref = "plugin-playPublisher" }
 plugin-square-sqldelight = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "square-sqlDelight" }
-robolectric = "org.robolectric:robolectric:4.13"
+robolectric = "org.robolectric:robolectric:4.14"
 square-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.14"
 square-moshi = { module = "com.squareup.moshi:moshi", version.ref = "square-moshi" }
 square-moshiAdapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "square-moshi" }
