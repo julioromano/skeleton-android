@@ -54,7 +54,7 @@ androidx-activityCompose = { module = "androidx.activity:activity-compose", vers
 androidx-appcompat = "androidx.appcompat:appcompat:1.7.0"
 androidx-browser = "androidx.browser:browser:1.8.0"
 androidx-collection = "androidx.collection:collection-ktx:1.4.5"
-androidx-compose-bom = "androidx.compose:compose-bom:2025.01.00"
+androidx-compose-bom = "androidx.compose:compose-bom:2025.01.01"
 androidx-composeAnimation = { module = "androidx.compose.animation:animation" }
 androidx-composeFoundation = { module = "androidx.compose.foundation:foundation" }
 androidx-composeMaterial3 = { module = "androidx.compose.material3:material3" }
