@@ -103,7 +103,7 @@ androidx-testOrchestrator = "androidx.test:orchestrator:1.5.1"
 androidx-testRules = { module = "androidx.test:rules", version.ref = "androidx-test" }
 androidx-testRunner = "androidx.test:runner:1.6.2"
 androidx-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
-androidx-webkit = "androidx.webkit:webkit:1.12.1"
+androidx-webkit = "androidx.webkit:webkit:1.13.0"
 androidx-workRuntime = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-workManager" }
 androidx-workTesting = { module = "androidx.work:work-testing", version.ref = "androidx-workManager" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
