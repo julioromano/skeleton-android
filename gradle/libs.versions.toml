@@ -27,7 +27,7 @@ plugin-kotlinter = "5.0.2"
 plugin-playPublisher = "3.12.1"
 square-moshi = "1.15.2"
 square-okhttp = "4.12.0"
-square-retrofit = "2.11.0"
+square-retrofit = "2.12.0"
 square-sqlDelight = "1.5.5"
 
 [plugins]
